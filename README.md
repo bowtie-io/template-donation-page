@@ -1,6 +1,6 @@
 # Donation/Pay Page Template
 
-'Donation/Pay Page' is a Jeykll donation page template htat allows you to accept [Stripe Checkout](https://stripe.com/checkout) payments on a static Jekyll site using [BowTie.io](https://bowtie.io) product records. This template is meant as a learning resource. It is compatible with other BowTie components and templates, and the BowTie test environment.
+'Donation/Pay Page' is a Jeykll donation page template that allows you to accept [Stripe Checkout](https://stripe.com/checkout) payments on a static Jekyll site using [BowTie.io](https://bowtie.io) product records. This template is meant as a learning resource. It is compatible with other BowTie components and templates, and the BowTie test environment.
 
 This template includes components for Stripe checkout buttons, authorship, category sorting, [disqus](https://disqus.com/) commenting, [addthis](http://www.addthis.com/) social sharing, error pages, a maintenance page, terms of service generation, post archives, google maps, and user management and registration provided by BowTie.
 
