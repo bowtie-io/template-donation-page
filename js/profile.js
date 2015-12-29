@@ -1,7 +1,11 @@
 $(function(){
 
   bowtie.user.profile(function(profile){
-    $("#avatar").src = profile.avatar.url;
+    if(profile.avatar){
+      $("#avatar").each(function(){
+        this.src = profile.avatar.url;
+      });
+    }
   });
 
   $("#avatar-upload").on("change", function(){
@@ -16,7 +20,7 @@ $(function(){
          });
        }
        fr.readAsDataURL(file);
-    }
+     }
 
     // Store the new avatar with the Bowtie User Profile
     bowtie.user.profile({
@@ -25,4 +29,21 @@ $(function(){
       alert("saved");
     })
   });
+
+  $("#update_profile").on("click", function(){
+    var twitter = $('#twitter').val();
+    var selectSomething = $('#select-something').val();
+    var userInfo = $('#user_info').val();
+
+
+    // Store the new twitter handle to the Bowtie User Profile
+    bowtie.user.profile({
+      twitter: twitter,
+      selection: selectSomething,
+      info: userInfo,
+    }, function(){
+      alert("saved");
+    })
+  });
+
 });
