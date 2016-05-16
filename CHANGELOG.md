@@ -14,3 +14,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - updating user profile functions and variable names
 - capturing additional fields with stripe checkout in checkout-button include
+
+## [0.0.3] - 2015-05-15
+### Added
+- Replacing components with versions designed for use with the BowTie Collection Editor
+- Reworking sample content
