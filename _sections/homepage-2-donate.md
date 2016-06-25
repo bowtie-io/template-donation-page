@@ -1,7 +1,7 @@
 ---
 location: homepage
 head:
-  title: Donations & Subscriptions
+  title: 'Donations & Subscriptions'
   subtitle: Set up a secure donation page using Stripe.
 style:
   id: donate
@@ -22,8 +22,7 @@ cta:
   subtext: null
 
 ---
-
-{% include widgets/checkout-button.html id="product_f8bc9c5dc2" %}
+{% include widgets/checkout-button.html id="product_9686791e0c" %}
 
 <br>
 

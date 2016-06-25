@@ -1,11 +1,12 @@
 ---
 location: homepage
 head:
-  title: null
-  subtitle: null
+  title: 'Simply Powerful'
+  subtitle: '⋈ BowTie sites are fast, safe, and require no maintenance or upgrades.'
+  img_path: '/img/bowtie-site-template-badge-w.png'
 style:
   id: 'hero'
-  class: 'jumbotron bgclear'
+  class: 'jumbotron bgclear image-tagline'
   media:
     img:
       url_path: /img/backgrounds/bowtie-donation-site.jpg
@@ -26,11 +27,3 @@ cta:
   btnLink: '#features'
   subtext: null
 ---
-
-<img src="/img/bowtie-site-template-badge-w.png" style="width:150px;margin:-40px auto 40px;">
-
-# Simply Powerful
-
-### ⋈ BowTie sites are fast, safe, and require no maintenance or upgrades.
-
-&nbsp;
